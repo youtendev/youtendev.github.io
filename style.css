@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 200px;
+  background-color: red;
+}
+.content {
+  min-height: 100%;
+  background-color: greenyellow;
+}
+footer {
+  height: 200px;
+  background-color: pink;
+}
+.menu {
+  height: 100px;
+  background-color: dodgerblue;
+}
+.menu > ul {
+  list-style: none;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.g-menu {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  background-color: blueviolet;
+}
