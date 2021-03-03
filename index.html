@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>ประเพณีไทย</header>
+    <header><h1 class="title">ประเพณีไทย</h1></header>
     <nav class="menu">
       <ul>
         <li>หน้าหลัก</li>
         <li>
-          <p>แกลเลอรี่</p>
+          <p id="g-btn">แกลเลอรี่</p>
           <ul class="g-menu">
             <li>ชุดประจำภาค</li>
             <li>รูปประเพณีของไทย</li>
@@ -21,35 +21,113 @@
         </li>
       </ul>
     </nav>
-    <div class="content">Content</div>
-    <footer>&reg;2564</footer>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function () {
-        FB.init({
-          xfbml: true,
-          version: "v10.0",
-        });
-      };
 
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
+    <div class="content">
+      <section>
+        <h1>ประเพณีไทย</h1>
+        <p>
+          ประเพณีล้วนได้รับอิทธิพลมาจากสิ่งแวดล้อมภายนอกที่เข้าสู่สังคม
+          รับเอาแบบปฏิบัติที่หลากหลายเข้ามาผสมผสานในการดำเนินชีวิต
+          ประเพณีจึงเรียกได้ว่าเป็นวิถีแห่งการดำเนินชีวิตของสังคม
+          โดยเฉพาะศาสนาซึ่งมีอิทธิพลต่อประเพณีไทยมากที่สุด วัดวาอารามต่าง ๆ
+          ในประเทศไทยสะท้อนให้เห็นถึงอิทธิพลของพุทธศาสนาที่มีต่อสังคมไทยและ
+          ชี้ให้เห็นว่าชาวไทยให้ความสำคัญในการบำรุงพุทธศาสนาด้วยศิลปกรรมที่งดงาม
+          เพื่อใช้ในพิธีกรรมทางศาสนาตั้งแต่โบราณกาล
+        </p>
+      </section>
+      <section>
+        <h1>ประเพณีไทยภาคเหนือ</h1>
+        <div class="box">
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีการแข่งเรือยาว/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีแข่งเรือยาว</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีอุ้มพระดำน้ำ/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีอุ้มพระดำน้ำ</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section>
+        <h1>ประเพณีไทยภาคอีสาน</h1>
+        <div class="box">
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีบุญบั้งไฟ/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีบุญบั้งไฟ</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีแห่เทียนเข้าพรรษา/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีแห่เทียนเข้าพรรษา</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section>
+        <h1>ประเพณีไทยภาคกลาง</h1>
+        <div class="box">
+          <a href="">
+            <div class="item">
+              <img src="/รูปภาพ/ประเพณีวิ่งควาย/1.jpg" alt="รูปประเพณีของไทย" />
+              <h3>ประเพณีวิ่งควาย</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีสู่ขวัญข้าว/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีสู่ขวัญข้าว</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section>
+        <h1>ประเพณีไทยภาคใต้</h1>
+        <div class="box">
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีการแข่งโพน/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีแข่งโพน</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="item">
+              <img
+                src="/รูปภาพ/ประเพณีลากพระ(ชักพระ)/1.jpg"
+                alt="รูปประเพณีของไทย"
+              />
+              <h3>ประเพณีลากพระ</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
 
-    <!-- Your Chat Plugin code -->
-    <div
-      class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="100823508742292"
-      theme_color="#fa3c4c"
-    ></div>
+    <footer><h2>&reg;2564</h2></footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

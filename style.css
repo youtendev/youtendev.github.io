@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100%;
@@ -5,22 +9,92 @@ body {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Mitr", sans-serif;
 }
 header {
   height: 200px;
   background-color: red;
+  background-image: url("รูปภาพ/ประเพณีบุญบั้งไฟ/2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: white;
+  text-shadow: 0 0 10px #000000;
+  font-size: 50px;
 }
 .content {
   min-height: 100%;
-  background-color: greenyellow;
+  background-color: #d4334e;
+  padding: 50px;
+}
+.content > section {
+  background-color: #2a954b;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 50px;
+  box-shadow: 15px 16px 0 0px;
+}
+.content > section > h1 {
+  text-indent: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4d25a9;
+  margin: 10px 0;
+}
+.content > section > p {
+  font-size: 20px;
+  text-indent: 100px;
+  padding: 0 50px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 20px;
+}
+.box > a {
+  flex: 1;
+  text-decoration: none;
+  margin: 10px;
+}
+.item {
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #4d25a9;
+  transition: 0.3s;
+}
+.item > img {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+}
+.item > h3 {
+  text-align: center;
+  font-size: 26px;
+  color: #4d25a9;
+  margin: 10px 0;
+}
+.item:hover {
+  box-shadow: 5px 5px 0 0 #4d25a9;
+  transition: 0.3s;
 }
 footer {
-  height: 200px;
+  height: 150px;
   background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menu {
   height: 100px;
-  background-color: dodgerblue;
+  background-color: #2a954b;
+  font-size: 24px;
 }
 .menu > ul {
   list-style: none;
@@ -30,9 +104,38 @@ footer {
   align-items: center;
   justify-content: space-evenly;
 }
+.menu > ul > li {
+  position: relative;
+}
 .g-menu {
   margin: 0;
   list-style: none;
   padding: 0;
-  background-color: blueviolet;
+  background-color: #2a954b;
+  display: none;
+  position: absolute;
+  box-shadow: 4px 2px 0 2px #000000;
+  width: 250px;
+  left: -15px;
+}
+.d-block {
+  display: block;
+}
+#g-btn {
+  cursor: pointer;
+}
+#g-btn:hover {
+  color: white;
+  text-decoration: underline;
+}
+.g-menu > li {
+  padding: 10px 15px;
+}
+.g-menu > li:first-child {
+  border-bottom: 1px solid #000000;
+}
+.g-menu > li:hover {
+  cursor: pointer;
+  background-color: #46b36a;
+  color: white;
 }
