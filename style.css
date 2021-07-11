@@ -92,6 +92,9 @@ td {
 }
 .onair {
   padding: 0;
+  transition: 0.3s;
+  background-color: #1a1a1a;
+  color: #ffeaa7;
 }
 .onair > a {
   display: block;
@@ -99,9 +102,6 @@ td {
   height: 100%;
   padding: 0.5em;
   text-decoration: underline;
-  transition: 0.3s;
-  background-color: #1a1a1a;
-  color: #ffeaa7;
 }
 .onair > :hover {
   transition: 0.3s;
