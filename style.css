@@ -177,7 +177,7 @@ td {
   display: block;
   width: 100%;
   /* height: 100%; */
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 700;
   padding: 1em;
 }
@@ -191,6 +191,9 @@ td {
   color: #ffeaa7;
 }
 @media (max-width: 992px) {
+  body {
+    font-size: 12px;
+  }
   .middle-box {
     height: auto;
     width: 100%;
