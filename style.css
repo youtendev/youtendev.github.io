@@ -34,9 +34,6 @@ body {
   background-color: #1a1a1a;
   color: #ffeaa7;
 }
-.title {
-  /* height: 100%; */
-}
 .group-icon {
   list-style: none;
   padding: 0;
@@ -167,21 +164,24 @@ td {
 }
 .bottom-right-inner {
   flex-basis: 100%;
-  height: 100%;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 5px solid #1a1a1a;
   position: relative;
   text-align: center;
+  transition: 0.3s ease-in-out;
 }
 .bottom-link {
   display: block;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   font-size: 1.5em;
   font-weight: 700;
   padding: 1em;
-  transition: 0.3s ease-in-out;
 }
-.bottom-link:hover {
+.bottom-right-inner:hover {
   background-color: #1a1a1a;
   color: #ffeaa7;
   transition: 0.3s ease-in-out;
