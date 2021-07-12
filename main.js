@@ -19,7 +19,8 @@ $(document).ready(() => {
     $("#modal").css("display", "block")
     $("#modal-content").html(
       "<h1 class='modal-title'>ลิงค์เข้า Discord</h1><p class='modal-details'>" +
-        "<a href='https://discord.gg/6NAcF39J' target='_blank'rel='noopener noreferrer' class='modal-link-btn'>Discord</a></p>"
+        "<a href='https://discord.gg/6NAcF39J' target='_blank'rel='noopener noreferrer' class='modal-link-btn'>Discord ปี5</a>" +
+        "<a href='https://discord.gg/6NAcF39J' target='_blank'rel='noopener noreferrer' class='modal-link-btn'>Discord ปี3</a></p>"
     )
   }
   const closeModal = () => {

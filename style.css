@@ -260,23 +260,29 @@ td {
   align-items: center;
 }
 .modal-title {
+  max-width: 500px;
   text-align: center;
   width: 100%;
   font-size: 2.3em;
-  margin: 1em;
+  margin: 0.5em 1em;
+  border-bottom: 5px solid #ffeaa7;
+  padding-bottom: 1em;
 }
 .modal-details {
   text-align: center;
   width: 100%;
-  padding: 1em;
+  /* padding: 1em; */
 }
 .modal-link-btn {
+  display: block;
+  max-width: 300px;
   font-size: 1.5em;
   font-weight: 500;
   background-color: #ffeaa7;
   color: #1a1a1a;
   padding: 0.5em 1em;
   border: 5px solid #ffeaa7;
+  margin: 1em auto;
 }
 .modal-link-btn:hover {
   color: #ffeaa7;
