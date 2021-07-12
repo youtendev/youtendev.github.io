@@ -1,7 +1,7 @@
 $(document).ready(() => {
-  $("#open-discord").click(() => {
-    openDiscord()
-  })
+  //   $("#open-discord").click(() => {
+  //     openDiscord()
+  //   })
 
   $("#close-btn").click(() => {
     closeModal()
@@ -15,7 +15,7 @@ $(document).ready(() => {
     $("#close-btn").removeClass("rotate-in")
   })
 
-  const openDiscord = () => {
+  openDiscord = () => {
     $("#modal").css("display", "block")
     $("#modal-content").html(
       "<h1 class='modal-title'>ลิงค์เข้า Discord</h1><p class='modal-details'>" +
