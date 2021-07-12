@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <meta property="og:title" content="เรียนออนไลน์กับครูมอส" />
+    <meta property="og:description" content="มาเรียนออนไลน์กันเต้อะ" />
+    <meta property="og:image" content="./imgs/cover.jpg" />
+    <meta property="og:url" content="https://youtendev.github.io" />
     <link
       rel="shortcut icon"
-      href="./quantum-computing.png"
+      href="./imgs/quantum-computing.png"
       type="image/x-icon"
     />
     <script
@@ -53,7 +57,7 @@
             <tr>
               <td>12-July-64</td>
               <td class="onair">
-                <a href="#discord">การออกแบบและพัฒนาเว็บไซต์ (On Air) </a>
+                <a id="open-discord">การออกแบบและพัฒนาเว็บไซต์ (On Air) </a>
               </td>
               <td>การออกแบบและพัฒนาเว็บไซต์</td>
             </tr>
@@ -179,5 +183,13 @@
         </div>
       </div>
     </div>
+    <div class="modal" id="modal">
+      <div class="modal-body">
+        <div id="close-btn"><i class="fas fa-times"></i></div>
+        <div class="modal-content" id="modal-content"></div>
+      </div>
+    </div>
+    <script src="./jquery.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
