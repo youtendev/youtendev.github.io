@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./animate.css" />
     <meta property="og:title" content="เรียนออนไลน์กับครูมอส" />
     <meta property="og:description" content="มาเรียนออนไลน์กันเต้อะ" />
     <meta property="og:image" content="./imgs/cover.jpg" />
@@ -165,14 +166,7 @@
           >
         </div>
         <div class="bottom-right-inner" id="discord">
-          <a
-            href="https://discord.gg/6NAcF39J"
-            class="bottom-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            onclick="openDiscord()"
-            >Discord</a
-          >
+          <a class="bottom-link" onclick="openDiscord()">Discord</a>
         </div>
         <div class="bottom-right-inner">
           <a
@@ -188,7 +182,7 @@
         </div>
       </div>
     </div>
-    <div class="modal" id="modal">
+    <div class="modal scale-in-ver-top" id="modal">
       <div class="modal-body">
         <div id="close-btn"><i class="fas fa-times"></i></div>
         <div class="modal-content" id="modal-content"></div>
