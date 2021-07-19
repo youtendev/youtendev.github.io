@@ -1,7 +1,19 @@
 $(document).ready(() => {
-  //   $("#open-discord").click(() => {
-  //     openDiscord()
-  //   })
+  getColor = () => {
+    let color = [
+      "#ff9393",
+      "#ffeaa7",
+      "#f8b4dd",
+      "#CAF7E3",
+      "#FFD3B4",
+      "#B5EAEA",
+      "#C9CBFF",
+    ]
+    let date = new Date().getDay()
+    return color[date]
+  }
+
+  $(document.documentElement).css("--main-color", getColor())
 
   $("#close-btn").click(() => {
     closeModal()
