@@ -304,3 +304,12 @@ td {
   text-decoration: underline;
   /* border: 5px solid #ffeaa7; */
 }
+.work-link {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.work-link:hover {
+  background-color: #1a1a1a;
+  color: #ffeaa7;
+  transition: 0.3s ease-in-out;
+}
