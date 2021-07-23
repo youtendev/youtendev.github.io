@@ -39,7 +39,7 @@ $(document).ready(() => {
     $("#modal-content").html(
       "<h1 class='modal-title fade-in'>ผลลงานนักศึกษา</h1><p class='modal-details'>" +
         "<a href='https://ursulabaconner.github.io/' target='_blank'rel='noopener noreferrer' class='modal-link-btn fade-in'>กลุ่มที่ 1</a>" +
-        "<a href='#' target='_blank'rel='noopener noreferrer' class='modal-link-btn fade-in'>กลุ่มที่ 2</a>" +
+        "<a href='https://hongtae85.github.io/' target='_blank'rel='noopener noreferrer' class='modal-link-btn fade-in'>กลุ่มที่ 2</a>" +
         "<a href='#' target='_blank'rel='noopener noreferrer' class='modal-link-btn fade-in'>กลุ่มที่ 3</a></p>"
     )
   }
